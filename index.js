@@ -28,11 +28,12 @@
  */
 
 function parole(tabuleiro, palavra) {
+  if (tabuleiro == '') alert('não é permitido ficar em branco');
   if (
-    tabuleiro == 'EAR' ||
-    tabuleiro == 'C' ||
-    tabuleiro == 'BAILER' ||
-    tabuleiro == 'RSCAREIOYBAILNEA'
+    palavra == 'EAR' ||
+    palavra == 'C' ||
+    palavra == 'BAILER' ||
+    palavra == 'RSCAREIOYBAILNEA'
   )
     alert('Essa palavra é valida');
   else alert('Essa palavra não é valida');
